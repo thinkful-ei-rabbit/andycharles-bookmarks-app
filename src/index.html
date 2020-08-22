@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Bookmarks</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+
+    <div>
+      <h1>MY BOOKMARKS</h1>
+      <form id="js-bookmark-form">
+        <label for="bookmark-entry">Enter your title here!</label><br>
+        <input class="bookmark-entry" id="bookmark-entry" name="bookmark-entry" type="string" required placeholder="Title here..."><br>
+
+        <label for="bookmark-url">Paste your URL here!</label><br>
+        <input class="bookmark-entry" id="bookmark-url" name="bookmark-url" type="string" required placeholder="URL here..."><br>
+        
+        <label for="bookmark-desc">Type in a description!</label><br>
+        <input class="bookmark-entry" id="bookmark-desc" name="bookmark-desc" type="string" required placeholder="URL here..."><br>
+        
+        <button class='button' type="submit" value="New">+ New</button>
+        <button class='filter' type="button" value="Search">Filter by: <select name="minimum-rating" size='1'>no</select></button>
+        
+      </form>
+    </div>
+
+    
+
+    <div id='bookmarkList'>
+      
+    </div>
+    <div id="root"></div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
