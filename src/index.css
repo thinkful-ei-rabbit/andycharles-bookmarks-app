@@ -1,53 +1,23 @@
-h1 {
-    color: chocolate;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-
-body{
-    background-color: beige;
-}
-
 main {
-    margin: 0 200px 0px 200px;
-    background-color: white;
+    margin: 100px;
+    background-color: beige;
     border: solid;
+    padding-left: 20px;
 }
 
-div {
+
+h1 {
     text-align: center;
-}
-
-.button, .filter {
-    background-color: chocolate;
-    border: solid;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 100px;
-  }
-
-#links {
-    width: 75%;
-    height: 40px;
-    margin-top: 0px;
-}
-
-input {
-    width: 75%;
-    border: solid;
-    height: 30pt;
-}
-
-ul, li {
-    list-style: none;
-}
-
-.title {
-    font-size: 1.8em;
     color: chocolate;
 }
+
+.form-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: chocolate;
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
